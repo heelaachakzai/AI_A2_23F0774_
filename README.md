@@ -1,27 +1,23 @@
-# Dynamic Pathfinding Agent
+# Dynamic Pathfinding Agent 
 
-A **Tkinter GUI-based dynamic pathfinding agent** implemented in Python.  
-The agent uses **A\*** and **Greedy Best-First Search (GBFS)** with **Manhattan and Euclidean heuristics** to find paths in a 2D grid environment. Dynamic obstacles can appear in real-time, allowing the agent to recalculate paths adaptively.
 
----
 
-## Features
+A **Tkinter GUI based dynamic pathfinding agent** in Python.  
+The agent demonstrates **A\*** and **Greedy Best-First Search (GBFS)** algorithms with **Manhattan and Euclidean heuristics**, capable of navigating through **static and dynamic obstacles** in real-time.  
 
-- Interactive 20×20 (default) grid with start & goal points
-- Place walls manually or generate random mazes
-- Choose between **A*** or **GBFS** algorithms
-- Choose heuristic: **Manhattan** or **Euclidean**
-- **Dynamic Mode**: Obstacles appear during path execution
-- Real-time path animation
-- Metrics displayed: Nodes Visited, Path Cost, Execution Time
-- Final path highlighted in green
+This project is ideal for learning **AI search strategies, heuristics, and adaptive pathfinding visualization**.
 
 ---
 
-## Installation
+##  Features
 
-1. Clone the repository:
+- Interactive grid with **start and goal points**  
+- Manual wall placement or **random maze generation**  
+- **Dynamic obstacles** during path execution  
+- Real time **path animation**  
+- Metrics: **Nodes Visited**, **Path Cost**, **Execution Time**  
+- Choice of **Algorithm**: A* or GBFS  
+- Choice of **Heuristic**: Manhattan or Euclidean  
 
-```bash
-git clone https://github.com/YourUsername/Dynamic-Pathfinding-Agent.git
-cd Dynamic-Pathfinding-Agent
+---
+
