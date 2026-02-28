@@ -19,5 +19,21 @@ This project is ideal for learning **AI search strategies, heuristics, and adapt
 - Choice of **Algorithm**: A* or GBFS  
 - Choice of **Heuristic**: Manhattan or Euclidean  
 
----
+# Algorithms Implemented
+## A* Search
 
+- Uses f = g + h (path cost + heuristic)
+
+- Guarantees optimal path with admissible heuristics
+
+- Works best with Manhattan in 4-directional grids
+
+- Slight differences appear with Euclidean heuristic due to diagonal distance calculations
+
+## Greedy Best-First Search (GBFS)
+
+- Uses only heuristic (h) to guide search
+
+- Faster in simple grids but may not guarantee optimal paths in complex mazes
+  
+- Dynamic obstacles may force recalculations and suboptimal paths
